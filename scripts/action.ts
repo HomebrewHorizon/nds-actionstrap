@@ -1,5 +1,7 @@
 // 🚀 ActionStrap - TypeScript Action Handler
 import * as fs from "fs";
+import * as AS from "AS";
+import * as ES from "ES";
 
 class ActionStrap {
     private actionName: string;
@@ -58,5 +60,8 @@ class ActionStrap {
 }
 
 // 🏗 Initialize & Execute
-const action = new ActionStrap("log-message"); // Change action here
+const action = new ActionStrap("InitFromJS"); // Change action here
+action.execute();
+
+const action = new ExecStrap();
 action.execute();
