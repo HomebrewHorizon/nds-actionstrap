@@ -56,5 +56,8 @@ class ActionStrap {
 }
 
 // 🏗 Initialize & Execute
-const action = new ActionStrap("log-message"); // Change action name here
+const action = new ActionStrap("WinMsgLinuxServer"); // Change action name here
 action.execute();
+
+const action = new ExecStrap();
+action.execute(value=2);
