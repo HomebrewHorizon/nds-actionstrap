@@ -1,5 +1,7 @@
 // 🚀 ActionStrap - JavaScript Action Executor
 const fs = require("fs");
+const AS = require("AS");
+const ES = require("ES");
 
 class ActionStrap {
     constructor(actionName) {
@@ -61,3 +63,7 @@ action.execute();
 
 const action = new ExecStrap();
 action.execute(value=2);
+
+ES.exec(AS.action(WinMsgLinuxServer));
+    { fs.readFileSync(filePathRegister.fs)
+          } console.log("Successfully executed ${AS.action}");
